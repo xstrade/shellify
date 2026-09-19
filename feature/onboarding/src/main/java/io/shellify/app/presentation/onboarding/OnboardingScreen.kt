@@ -574,6 +574,7 @@ private fun WelcomePage(
             "en" to "English",
             "fr" to "Français",
             "ar" to "العربية",
+            "zh-CN" to "简体中文",
         )
         // Pair into rows of 2
         val rows = languages.chunked(2)
