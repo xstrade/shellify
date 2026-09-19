@@ -493,6 +493,7 @@ private fun LanguagePickerDialog(
         LangOption("en", "English", "English"),
         LangOption("fr", "Français", "French"),
         LangOption("ar", "العربية", "Arabic"),
+        LangOption("zh-CN", "简体中文", "Simplified Chinese"),
     )
     ModalBottomSheet(onDismissRequest = onDismiss) {
         Text(
