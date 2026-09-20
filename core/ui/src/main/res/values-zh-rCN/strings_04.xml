@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_strength_good">良好</string>
+    <string name="onboarding_strength_strong">强</string>
+    <string name="onboarding_backup_title">做好备份</string>
+    <string name="onboarding_backup_subtitle">对你的应用和设置创建加密快照，只保存在设备本地或你指定的文件夹中。</string>
+    <string name="onboarding_backup_hint">AES-256，使用你的密码派生密钥</string>
+    <string name="onboarding_backup_enable">加密自动备份</string>
+    <string name="onboarding_backup_folder_label">备份文件夹</string>
+    <string name="onboarding_schedule_manual">手动</string>
+    <string name="onboarding_get_started">开始添加应用</string>
+    <string name="onboarding_all_set">设置完成。</string>
+    <string name="onboarding_ready">来添加你的第一个网站吧。在下一页输入网址，Shellify 会把它变成一个相互隔离的应用。</string>
+    <string name="onboarding_done_tip_title">提示 — 长按任意应用卡片</string>
+    <string name="onboarding_done_tip_body">可以配置广告拦截、隔离和单个应用的权限。</string>
+
+    <string name="onboarding_quickpicks_title">先添加几个应用</string>
+    <string name="onboarding_quickpicks_subtitle">从常用网页应用中选择，之后可以随时修改。</string>
+    <string name="onboarding_quickpicks_eyebrow">快捷推荐</string>
+    <string name="onboarding_quickpicks_selected">已选择</string>
+    <string name="onboarding_quickpicks_add_n">添加 %d 个应用</string>
+    <string name="onboarding_quickpicks_add_one">添加 1 个应用</string>
+    <string name="onboarding_quickpicks_reddit">Reddit</string>
+    <string name="onboarding_quickpicks_reddit_host">reddit.com</string>
+    <string name="onboarding_quickpicks_discord">Discord</string>
+    <string name="onboarding_quickpicks_discord_host">discord.com</string>
+    <string name="onboarding_quickpicks_telegram">Telegram</string>
+    <string name="onboarding_quickpicks_telegram_host">web.telegram.org</string>
+    <string name="onboarding_quickpicks_github">GitHub</string>
+    <string name="onboarding_quickpicks_github_host">github.com</string>
+    <string name="onboarding_quickpicks_mastodon">Mastodon</string>
+    <string name="onboarding_quickpicks_mastodon_host">mastodon.social</string>
+    <string name="onboarding_quickpicks_proton">Proton Mail</string>
+    <string name="onboarding_quickpicks_proton_host">mail.proton.me</string>
+    <string name="onboarding_quickpicks_bitwarden">Bitwarden</string>
+    <string name="onboarding_quickpicks_bitwarden_host">vault.bitwarden.com</string>
+
+    <string name="share_copy_link">复制链接</string>
+    <string name="share_button">分享</string>
+    <string name="share_copy_app_link">复制应用链接</string>
+
+    <string name="link_dispatcher_chooser_title">打开方式</string>
+    <string name="link_dispatcher_no_match_title">没有匹配的应用</string>
+    <string name="link_dispatcher_open_temporarily">临时打开</string>
+    <string name="link_dispatcher_add_as_new">添加为新应用</string>
+
+    <string name="error_invalid_url">请输入有效的网址</string>
+    <string name="error_analyze_failed">无法读取网站信息，你仍然可以手动保存。</string>
+    <string name="error_shortcut_failed">无法创建快捷方式</string>
+
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_permission">允许通知</string>
+    <string name="settings_notifications_dnd_start">勿扰模式开始时间</string>
+    <string name="settings_notifications_dnd_end">勿扰模式结束时间</string>
+    <string name="settings_notifications_dnd">勿扰模式</string>
+    <string name="settings_notifications_dnd_not_set">未设置</string>
+    <string name="settings_notifications_dnd_clear_cd">清除计划</string>
+    <string name="settings_notifications_dnd_start_title">开始时间</string>
+    <string name="settings_notifications_dnd_end_title">结束时间</string>
+    <string name="settings_notifications_background">后台通知</string>
+    <string name="settings_notifications_history">通知历史</string>
+    <string name="settings_notifications_history_title">通知历史</string>
+    <string name="settings_notifications_history_empty_title">暂无通知</string>
+    <string name="settings_notifications_history_empty_body">此应用的通知会在这里保留 30 天。</string>
+    <string name="settings_notifications_history_footer">历史记录保留 30 天</string>
+    <string name="notification_permission_dialog_body" formatted="true">允许 %s 向你发送通知吗？</string>
+    <string name="notification_permission_allow">允许通知</string>
+    <string name="notification_permission_not_now">暂不</string>
+    <string name="notification_channel_name" formatted="true">%s 通知</string>
+    <string name="notification_channel_name_default">默认</string>
+    <string name="notification_channel_description" formatted="true">来自 %s 的通知</string>
+    <string name="settings_notifications_permission_os_denied">请在 Android 设置中为 Shellify 启用通知。</string>
+    <string name="bg_notification_service_title">Shellify 通知</string>
+    <string name="bg_notification_service_text" formatted="true">正在保持 %s 的通知服务运行</string>
+    <string name="bg_notification_service_text_generic">正在保持 PWA 通知服务运行</string>
+    <string name="test_app_name">测试应用</string>
+    <string name="test_url_example">https://example.com</string>
+
+    <string name="webview_control_network_log">网络日志</string>
+    <string name="webview_control_reading_mode">阅读模式</string>
+    <string name="webview_control_reading_mode_exit">退出阅读模式</string>
+    <string name="webview_reader_no_content">此页面未找到可阅读的文章内容。</string>
+    <string name="network_log_sheet_title">网络请求</string>
+    <string name="network_log_empty_title">暂无请求</string>
+    <string name="network_log_empty_body">本次会话中访问的域名会显示在这里。</string>
+    <string name="network_log_history_title">网络日志</string>
+    <string name="network_log_history_empty_title">暂无历史记录</string>
+    <string name="network_log_history_empty_body">超过 30 天的会话会自动删除。</string>
+    <string name="network_log_session_header" formatted="true">会话 — %s</string>
+    <string name="network_log_request_count" formatted="true">%d 个请求</string>
+    <string name="network_log_blocked_label">已拦截</string>
+    <string name="network_log_gecko_notice">GeckoView 引擎暂不支持详细请求日志，仅显示域名和拦截数量。</string>
+    <string name="settings_network_log">网络日志</string>
+    <string name="network_log_blocked_cd">已拦截的请求</string>
+    <string name="network_log_history_footer">历史记录保留 30 天。</string>
+    <string name="network_log_export_cd">导出网络日志</string>
+    <string name="network_log_export_subject">Shellify 网络日志</string>
+    <string name="network_log_clear_cd">清除网络日志</string>
+    <string name="network_log_clear_title">清除日志？</string>
+    <string name="network_log_clear_body">此应用记录的所有网络请求都会被永久删除。</string>
+    <string name="network_log_clear_confirm">清除</string>
+
+    <string name="settings_tor">Tor</string>
+    <string name="settings_network_tor">网络与 Tor</string>
+    <string name="settings_browser_network">浏览器与网络</string>
+    <string name="settings_tor_enable">通过 Tor 路由</string>
+    <string name="settings_tor_enable_desc">此应用的所有流量都会通过 Tor 网络传输</string>
+    <string name="settings_tor_requires_gecko">需要 GeckoView 引擎</string>
+    <string name="settings_tor_preserve_identity">保留 Tor 身份</string>
+    <string name="settings_tor_preserve_identity_desc">在不同会话之间保持使用同一条 Tor 线路</string>
+    <string name="settings_tor_new_identity">新的 Tor 身份</string>
+    <string name="settings_tor_new_identity_desc">切换到新的 Tor 线路</string>
+
+    <string name="webview_tor_connecting">正在连接 Tor 网络…</string>
+    <string name="webview_tor_loading">正在通过 Tor 加载…</string>
+    <string name="webview_tor_requires_geckoview">Tor 路由需要 GeckoView。请先在设置中安装 GeckoView。</string>
+    <string name="webview_tor_error_prefix">Tor 错误：</string>
+    <string name="webview_tor_error_chip">Tor 连接失败</string>
+    <string name="webview_tor_retry">重试</string>
+    <string name="webview_control_new_tor_identity">新的 Tor 身份</string>
+    <string name="webview_control_panic">紧急清除</string>
+    <string name="webview_tor_status">Tor 状态</string>
+    <string name="webview_tor_connected">已连接</string>
+    <string name="webview_tor_connecting_short">连接中</string>
+    <string name="webview_tor_connection_failed">连接失败</string>
+    <string name="webview_tor_stopped">已停止</string>
+    <string name="webview_tor_circuit">Tor 线路</string>
+    <string name="webview_tor_circuit_active">活动</string>
+    <string name="webview_tor_no_circuit">暂无线路</string>
+
+    <string name="webview_panic_button_cd">紧急按钮</string>
+    <string name="webview_panic_confirm_title">清除所有数据？</string>
+    <string name="webview_panic_confirm_body">这会永久删除所有应用、会话和设置，且无法撤销。</string>
+    <string name="webview_panic_confirm_button">全部清除</string>
+    <string name="webview_panic_confirm_dismiss">取消</string>
+</resources>
