@@ -62,7 +62,7 @@ SHA-1: 75:F2:73:AF:01:93:EF:08:F3:F2:2F:8C:B2:EA:FE:8B:BC:A0:27:73
 - **Icon packs** — Simple Icons integration for brand logos; custom icon selection
 - **Material You** — Dynamic theming, dark/light/system mode, custom accent colors
 - **Deep linking** — Share app configurations via QR code, link, or `shellify://` URI
-- **Multilingual** — English, French, and Arabic
+- **Multilingual** — English, French, Arabic, and Simplified Chinese
 
 </td>
 <td valign="top" align="center" width="40%">
@@ -209,7 +209,7 @@ Dependency direction: `feature → core:domain`, `core:* → core:domain`. Featu
 | Home-screen shortcuts | Android launcher shortcuts with the app's icon and theme color |
 | Categories | Group apps into named categories; filter the home grid |
 | Deep linking | Import apps via `shellify://` URI, HTTPS link, or QR code scan |
-| Multilingual | English, French, Arabic (runtime switchable) |
+| Multilingual | English, French, Arabic, Simplified Chinese (runtime switchable) |
 
 ---
 
